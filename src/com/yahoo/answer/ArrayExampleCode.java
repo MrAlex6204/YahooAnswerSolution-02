@@ -24,7 +24,7 @@ public class ArrayExampleCode {
         
     }
     public static char getFisrtNumber(int number){
-        char[] numberElement = Integer.toString(number).toCharArray();//===>Convert the number to  integer then to string and then to char array
+        char[] numberElement = Integer.toString(number).toCharArray();//===>Convert the number integer  to string and then to char array
         
         if(numberElement.length > 0) {
             return numberElement[0];//===>Return the fisrt element of the number
